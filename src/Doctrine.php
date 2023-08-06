@@ -23,9 +23,9 @@ class Doctrine {
 	private $original;
 
 	/**
-	 * @param Doc\ORM\EntityManager $em
+	 * @param $em
 	 */
-	public function __construct(Doc\ORM\EntityManager $em) {
+	public function __construct($em) {
 		$this->em = $em;
 	}
 
